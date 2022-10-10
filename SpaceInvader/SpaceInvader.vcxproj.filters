@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{00afd5c0-50c2-4526-a155-6a2d8ddc7bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Header">
+      <UniqueIdentifier>{99454fbd-8490-401d-9286-95091d2b9670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger">
+      <UniqueIdentifier>{33a65ac0-5967-4b14-b014-7c881bbe812e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\01. TimeMgr">
+      <UniqueIdentifier>{792c4d08-f8d1-463c-bad5-aaba32adacc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\02. KeyMgr">
+      <UniqueIdentifier>{1edb7a2e-dde2-4370-8806-9c79bfd657be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine">
+      <UniqueIdentifier>{e118e377-d42e-4920-ba83-900c6887f3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\03. LevelMgr">
+      <UniqueIdentifier>{1dff3c79-ff2b-4e61-8a8a-5f51969e83da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\04. CollisionMgr">
+      <UniqueIdentifier>{a18fc357-60a5-43bf-9f1d-79a759841bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\05. EventMgr">
+      <UniqueIdentifier>{6bff2786-13c7-4fe4-9b90-57f78f50b913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Level">
+      <UniqueIdentifier>{66aed9b0-b773-4b14-8081-289186a2ab33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object">
+      <UniqueIdentifier>{497a03c5-0bf0-4872-82a8-432d6ae8f02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{52156870-1d82-4a91-beb8-f4caf1cb2f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Player">
+      <UniqueIdentifier>{a86733b3-26e3-4ad5-97df-a699f0d14567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Monster">
+      <UniqueIdentifier>{271e7e60-0f1e-412b-9d39-b935835e1442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Level\Stage_01">
+      <UniqueIdentifier>{2b038114-e2d7-40db-a6be-e19a613f3bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\06. PathMgr">
+      <UniqueIdentifier>{4a33c9bf-074f-416b-b171-7fb5c2f55d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mananger\07. ResMgr">
+      <UniqueIdentifier>{ecc2a065-fead-42e4-bdae-6b5e12518fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component">
+      <UniqueIdentifier>{1b5f0623-57d6-4da4-adc4-6543a61bd89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Resource">
+      <UniqueIdentifier>{33c026a9-c310-4831-ad09-8b8b93892c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\Collider">
+      <UniqueIdentifier>{b0a57672-c370-45f3-91f3-6bfe49ccc3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Component\Animator">
+      <UniqueIdentifier>{d71a060f-f8c2-4809-a22e-098bb2c2aef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Missile">
+      <UniqueIdentifier>{29038144-d5b7-415c-b328-3171ab6d064c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Resource\Texture">
+      <UniqueIdentifier>{e40ae755-a072-4406-8afd-6ce17188f59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Wall">
+      <UniqueIdentifier>{413ac28d-a534-4720-8f5d-ba24cddfb5fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Monster\Green">
+      <UniqueIdentifier>{150f172d-5a87-4238-a3be-aff9972ca535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Monster\Red">
+      <UniqueIdentifier>{85e3898c-fba3-4345-8207-e6215bd8808c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Monster\Yellow">
+      <UniqueIdentifier>{3ed2ce5e-c13d-4d9f-9346-1a96d84010b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Monster\Extra">
+      <UniqueIdentifier>{a98b5433-d1d7-45e5-b578-e36f9a488523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Cover">
+      <UniqueIdentifier>{b39c81a3-bc52-47c6-92bd-ee7aa8a5dfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Effect">
+      <UniqueIdentifier>{66a9bef9-f245-45b1-b358-4028966448c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Missile\Player">
+      <UniqueIdentifier>{de453680-e518-4c1b-97a5-df5a5c143d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\Missile\Red">
+      <UniqueIdentifier>{0752743f-637d-487d-ad83-0c22753fb06b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceInvader.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>01. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>02. Mananger\01. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel.h">
+      <Filter>03. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>04. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>04. Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyMgr.h">
+      <Filter>02. Mananger\02. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelMgr.h">
+      <Filter>02. Mananger\03. LevelMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage_01.h">
+      <Filter>03. Level\Stage_01</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathMgr.h">
+      <Filter>02. Mananger\06. PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResMgr.h">
+      <Filter>02. Mananger\07. ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CRes.h">
+      <Filter>06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>05. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>05. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionMgr.h">
+      <Filter>02. Mananger\04. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>02. Mananger\05. EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissile.h">
+      <Filter>04. Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>06. Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CWall.h">
+      <Filter>04. Object\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="CRed.h">
+      <Filter>04. Object\Monster\Red</Filter>
+    </ClInclude>
+    <ClInclude Include="CYellow.h">
+      <Filter>04. Object\Monster\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="CGreen.h">
+      <Filter>04. Object\Monster\Green</Filter>
+    </ClInclude>
+    <ClInclude Include="CCover.h">
+      <Filter>04. Object\Cover</Filter>
+    </ClInclude>
+    <ClInclude Include="CExtra.h">
+      <Filter>04. Object\Monster\Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>04. Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMissile.h">
+      <Filter>04. Object\Missile\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedMissile.h">
+      <Filter>04. Object\Missile\Red</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Default</Filter>
+    </Image>
+    <Image Include="SpaceInvader.ico">
+      <Filter>Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CEngine.cpp">
+      <Filter>01. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>02. Mananger\01. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel.cpp">
+      <Filter>03. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>04. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>04. Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyMgr.cpp">
+      <Filter>02. Mananger\02. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelMgr.cpp">
+      <Filter>02. Mananger\03. LevelMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage_01.cpp">
+      <Filter>03. Level\Stage_01</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathMgr.cpp">
+      <Filter>02. Mananger\06. PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResMgr.cpp">
+      <Filter>02. Mananger\07. ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CRes.cpp">
+      <Filter>06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>05. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>05. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionMgr.cpp">
+      <Filter>02. Mananger\04. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>02. Mananger\05. EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissile.cpp">
+      <Filter>04. Object\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>06. Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CWall.cpp">
+      <Filter>04. Object\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="CRed.cpp">
+      <Filter>04. Object\Monster\Red</Filter>
+    </ClCompile>
+    <ClCompile Include="CYellow.cpp">
+      <Filter>04. Object\Monster\Yellow</Filter>
+    </ClCompile>
+    <ClCompile Include="CGreen.cpp">
+      <Filter>04. Object\Monster\Green</Filter>
+    </ClCompile>
+    <ClCompile Include="CCover.cpp">
+      <Filter>04. Object\Cover</Filter>
+    </ClCompile>
+    <ClCompile Include="CExtra.cpp">
+      <Filter>04. Object\Monster\Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>04. Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMissile.cpp">
+      <Filter>04. Object\Missile\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedMissile.cpp">
+      <Filter>04. Object\Missile\Red</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceInvader.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
